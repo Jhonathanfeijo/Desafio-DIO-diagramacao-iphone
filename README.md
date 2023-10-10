@@ -17,6 +17,7 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 
 Segue diagrama de como as classes herdam, se relacionam e implementam interfaces
 
-![image](https://github.com/Jhonathanfeijo/Desafio-DIO-diagramacao-iphone/assets/86839577/f0114cd4-b59a-47d4-80c3-d5678c0d33f6)
+![image](https://github.com/Jhonathanfeijo/Desafio-DIO-diagramacao-iphone/assets/86839577/3fa3aa9f-25e9-4117-8424-da594785548a)
+
 
 
