@@ -15,7 +15,7 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 
 ## Representação em UML
 
-Segue diagrama de como as classes herdam, se relacionam e implementam interfaces
+Segue diagrama representando classes e interfaces com suas respectivas heranças e implementações.
 
 ![image](https://github.com/Jhonathanfeijo/Desafio-DIO-diagramacao-iphone/assets/86839577/3fa3aa9f-25e9-4117-8424-da594785548a)
 
