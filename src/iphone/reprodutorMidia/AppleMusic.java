@@ -49,11 +49,15 @@ public class AppleMusic implements ReprodutorMusical {
 			System.out.println("Essa musica nao se encontra no seu repositorio");
 	}
 
+	public boolean isTocando() {
+		return tocando;
+	}
+
 	public void exibirStatus() {
-		if (tocando)
+		if(isTocando())
 			System.out.println("Tocando...");
 		else
-			System.out.println("Pausada...");
+			System.out.println("Pausado...");
 	}
 
 	@Override
