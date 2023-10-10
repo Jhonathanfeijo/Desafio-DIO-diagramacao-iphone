@@ -27,15 +27,15 @@ public class AppleMusic implements ReprodutorMusical {
 	}
 
 	@Override
-	public void tocarMusica() {
+	public void tocar() {
 		this.tocando = true;
-		System.out.println("Tocando musica");
+		System.out.println("Tocando musica..");
 	}
 
 	@Override
-	public void pausarMusica() {
+	public void pausar() {
 		this.tocando = false;
-		System.out.println("Musica pausada");
+		System.out.println("Musica pausada..");
 	}
 
 	@Override
@@ -44,16 +44,16 @@ public class AppleMusic implements ReprodutorMusical {
 			throw new RuntimeException("Não foi possível tocar essa musica");
 		if (musicas.containsKey(musica.getNome())) {
 			System.out.println("Musica selecionada " + musica.getNome());
-			tocarMusica();
+			tocar();
 		} else
 			System.out.println("Essa musica nao se encontra no seu repositorio");
 	}
 
-	public void statusAppleMusica() {
+	public void exibirStatus() {
 		if (tocando)
-			System.out.println("A musica esta tocando");
+			System.out.println("Tocando...");
 		else
-			System.out.println("A musica nao esta tocando");
+			System.out.println("Pausada...");
 	}
 
 	@Override

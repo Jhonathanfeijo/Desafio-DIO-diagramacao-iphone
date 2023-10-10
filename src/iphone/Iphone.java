@@ -40,7 +40,8 @@ public class Iphone {
 
 		iphone.appleMusic.adicionarMusica(linkinPark);
 		iphone.appleMusic.selecionarMusica(linkinPark);
-		iphone.appleMusic.pausarMusica();
+		iphone.appleMusic.pausar();
+		iphone.appleMusic.exibirStatus();
 		iphone.appleMusic.selecionarMusica(new Audio("Chimbinha - Traição não é uma opção", 320));
 		iphone.appleMusic.exibirMusicas();
 		iphone.appleMusic.removerMusica(linkinPark);
